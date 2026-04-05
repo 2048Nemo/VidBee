@@ -211,19 +211,16 @@ export const buildDownloadArgs = (
   const shouldAttemptSubtitles = !isBilibiliUrl(options.url) || hasSubtitleAuth
 
   if (shouldAttemptSubtitles) {
+    const subLangs = isBilibiliUrl(options.url) ? 'all,-danmaku' : 'all'
+    args.push('--sub-langs', subLangs)
+    args.push('--write-subs')
     if (embedSubs) {
-      const subLangs = isBilibiliUrl(options.url) ? 'all,-danmaku' : 'all'
-      args.push('--sub-langs', subLangs)
+      args.push('--embed-subs')
     } else {
-      args.push('--write-subs')
+      args.push('--no-embed-subs')
     }
-    args.push(embedSubs ? '--embed-subs' : '--no-embed-subs')
   } else {
     args.push('--no-embed-subs')
-  }
-
-  if (shouldAttemptSubtitles) {
-    args.push('--convert-subs', 'srt')
   }
 
   args.push(embedThumbnail ? '--embed-thumbnail' : '--no-embed-thumbnail')

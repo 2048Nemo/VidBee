@@ -80,7 +80,10 @@ export default defineConfig(({ mode }) => {
           jsx: 'react'
         }),
         tailwindcss()
-      ]
+      ],
+      rollupOptions: {
+        external: ['@sentry/electron/renderer']
+      }
     }
   }
 })
