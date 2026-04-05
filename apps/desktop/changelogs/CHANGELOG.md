@@ -3,6 +3,23 @@
 This page only includes user-visible updates and avoids implementation details.
 For full release notes, see [GitHub Releases](https://github.com/nexmoe/VidBee/releases).
 
+## [v1.3.7](https://github.com/nexmoe/VidBee/releases/tag/v1.3.7) - 2026-03-29
+### Bug Fixes
+- Improved filename sanitization to handle special Unicode characters and control codes.
+- Windows downloads now automatically trim overly long filenames.
+- Changing the concurrent download limit now takes effect immediately without restarting.
+
+## [v1.3.6](https://github.com/nexmoe/VidBee/releases/tag/v1.3.6) - 2026-03-29
+
+### Features
+- Added GlitchTip error reporting and user feedback support
+- Added update notification when running an outdated version
+- Integrated Rybbit analytics
+- Improved download UI details
+
+## [v1.3.5](https://github.com/nexmoe/VidBee/releases/tag/v1.3.5) - 2026-03-18
+### Requirement Updates
+- Updated the bundled yt-dlp runtime from v2026.03.13 to v2026.03.17 so site compatibility stays current.
 ## [v1.3.4](https://github.com/nexmoe/VidBee/releases/tag/v1.3.4) - 2026-03-14
 ### Bug Fixes
 - Improved macOS release build reliability by using the default Electron download source during packaging.

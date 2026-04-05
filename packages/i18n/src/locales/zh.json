@@ -30,6 +30,7 @@
       "downloadUpdate": "下载并安装更新 {{version}}？",
       "manualDownloadAction": "立即下载",
       "noUpdatesAvailable": "您正在使用最新版本",
+      "outdatedVersionRisk": "您的版本过旧，可能会导致下载失败。",
       "restartToUpdate": "立即重启以安装更新？",
       "restartNowAction": "立即重新启动",
       "updateAvailable": "发现新版本: {{version}}",
@@ -133,6 +134,8 @@
     "fetch": "获取",
     "fetchingVideoInfo": "正在获取视频信息...",
     "feedback": {
+      "reportNow": "立即上报",
+      "reportingNow": "上报中...",
       "title": "报告此错误:",
       "githubUrlTooLong": "这个 GitHub 链接很长。如果无法打开，请打开 issue 页面并手动粘贴日志。"
     },

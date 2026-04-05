@@ -44,6 +44,7 @@ import {
   buildFilePathCandidates,
   normalizeSavedFileName
 } from '../../../../shared/utils/download-file'
+import { sendGlitchTipFeedback } from '../../lib/glitchtip-feedback'
 import { ipcServices } from '../../lib/ipc'
 import {
   addDownloadAtom,
@@ -264,7 +265,7 @@ export function DownloadItem({ download, isSelected = false, onToggleSelect }: D
       toast.error(t('errors.emptyUrl'))
       return
     }
-    const id = `download_${Date.now()}_${Math.random().toString(36).substring(7)}`
+    const id = `download_${Date.now()}_${Math.random().toString(36).slice(7)}`
     const customDownloadPath = download.downloadPath?.trim() || undefined
     const formatId = download.selectedFormat?.format_id
 
@@ -1118,6 +1119,16 @@ export function DownloadItem({ download, isSelected = false, onToggleSelect }: D
                       iconClassName="h-3 w-3"
                       includeAppInfo
                       issueTitle={DOWNLOAD_FEEDBACK_ISSUE_TITLE}
+                      onGlitchTipFeedback={(event) => {
+                        event.stopPropagation()
+                        return sendGlitchTipFeedback({
+                          appInfo,
+                          error: download.error,
+                          sourceUrl: download.url,
+                          ytDlpCommand: download.ytDlpCommand,
+                          ytDlpLog: download.ytDlpLog
+                        })
+                      }}
                       onLinkClick={(event) => event.stopPropagation()}
                       showGroupSeparator={canShowSheet}
                       sourceUrl={download.url}

@@ -30,6 +30,7 @@
       "downloadUpdate": "Update {{version}} herunterladen und installieren?",
       "manualDownloadAction": "Jetzt herunterladen",
       "noUpdatesAvailable": "Sie verwenden die neueste Version",
+      "outdatedVersionRisk": "Ihre Version ist zu alt und kann dazu führen, dass Downloads fehlschlagen.",
       "restartToUpdate": "Jetzt neu starten, um Update zu installieren?",
       "restartNowAction": "Jetzt neu starten",
       "updateAvailable": "Update verfügbar: {{version}}",
@@ -133,6 +134,8 @@
     "fetch": "Abrufen",
     "fetchingVideoInfo": "Video-Informationen werden abgerufen...",
     "feedback": {
+      "reportNow": "Jetzt melden",
+      "reportingNow": "Wird gemeldet...",
       "title": "Fehler melden:",
       "githubUrlTooLong": "Dieser GitHub-Link ist sehr lang. Wenn er sich nicht öffnet, öffnen Sie bitte die Issue-Seite und fügen Sie die Logs manuell ein."
     },

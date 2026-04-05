@@ -30,6 +30,7 @@
       "downloadUpdate": "تنزيل وتثبيت التحديث {{version}}؟",
       "manualDownloadAction": "تنزيل الآن",
       "noUpdatesAvailable": "أنت تستخدم أحدث إصدار",
+      "outdatedVersionRisk": "إصدارك قديم جدًا وقد يتسبب في فشل التنزيلات.",
       "restartToUpdate": "إعادة التشغيل الآن لتثبيت التحديث؟",
       "restartNowAction": "إعادة التشغيل الآن",
       "updateAvailable": "تحديث متاح: {{version}}",
@@ -133,6 +134,8 @@
     "fetch": "جلب",
     "fetchingVideoInfo": "جلب معلومات الفيديو...",
     "feedback": {
+      "reportNow": "أبلغ الآن",
+      "reportingNow": "جارٍ الإبلاغ...",
       "title": "أبلغ عن هذا الخطأ:",
       "githubUrlTooLong": "رابط GitHub هذا طويل جدًا. إذا لم يفتح، فالرجاء فتح صفحة المشكلة ولصق السجلات يدويًا."
     },

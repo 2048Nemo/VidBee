@@ -30,6 +30,7 @@
       "downloadUpdate": "アップデート{{version}}をダウンロードしてインストールしますか？",
       "manualDownloadAction": "今すぐダウンロード",
       "noUpdatesAvailable": "最新バージョンを使用しています",
+      "outdatedVersionRisk": "現在のバージョンは古すぎるため、ダウンロードに失敗する可能性があります。",
       "restartToUpdate": "今すぐ再起動してアップデートをインストールしますか？",
       "restartNowAction": "今すぐ再起動してください",
       "updateAvailable": "利用可能なアップデート：{{version}}",
@@ -133,6 +134,8 @@
     "fetch": "取得",
     "fetchingVideoInfo": "ビデオ情報を取得中...",
     "feedback": {
+      "reportNow": "今すぐ報告",
+      "reportingNow": "報告中...",
       "title": "このエラーを報告:",
       "githubUrlTooLong": "このGitHubリンクは非常に長いです。開けない場合は、issueページを開いてログを手動で貼り付けてください。"
     },

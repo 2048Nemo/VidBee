@@ -30,6 +30,7 @@
       "downloadUpdate": "Unduh dan instal pembaruan {{version}}?",
       "manualDownloadAction": "Unduh sekarang",
       "noUpdatesAvailable": "Anda menggunakan versi terbaru",
+      "outdatedVersionRisk": "Versi Anda terlalu lama dan dapat menyebabkan unduhan gagal.",
       "restartToUpdate": "Mulai ulang sekarang untuk menginstal pembaruan?",
       "restartNowAction": "Mulai ulang sekarang",
       "updateAvailable": "Pembaruan tersedia: {{version}}",
@@ -133,6 +134,8 @@
     "fetch": "Ambil",
     "fetchingVideoInfo": "Mengambil info video...",
     "feedback": {
+      "reportNow": "Laporkan sekarang",
+      "reportingNow": "Sedang melaporkan...",
       "title": "Laporkan kesalahan ini:",
       "githubUrlTooLong": "Tautan GitHub ini sangat panjang. Jika tidak terbuka, buka halaman issue dan tempel log secara manual."
     },

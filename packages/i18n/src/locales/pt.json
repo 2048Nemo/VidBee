@@ -30,6 +30,7 @@
       "downloadUpdate": "Baixar e instalar atualização {{version}}?",
       "manualDownloadAction": "Baixe agora",
       "noUpdatesAvailable": "Você está usando a versão mais recente",
+      "outdatedVersionRisk": "Sua versão está muito desatualizada e pode fazer os downloads falharem.",
       "restartToUpdate": "Reiniciar agora para instalar atualização?",
       "restartNowAction": "Reinicie agora",
       "updateAvailable": "Atualização disponível: {{version}}",
@@ -133,6 +134,8 @@
     "fetch": "Buscar",
     "fetchingVideoInfo": "Buscando informações do vídeo...",
     "feedback": {
+      "reportNow": "Relatar agora",
+      "reportingNow": "Relatando...",
       "title": "Relatar este erro:",
       "githubUrlTooLong": "Este link do GitHub é muito longo. Se não abrir, abra a página da issue e cole os logs manualmente."
     },

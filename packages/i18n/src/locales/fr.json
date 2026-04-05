@@ -30,6 +30,7 @@
       "downloadUpdate": "Télécharger et installer la mise à jour {{version}} ?",
       "manualDownloadAction": "Téléchargez maintenant",
       "noUpdatesAvailable": "Vous utilisez la dernière version",
+      "outdatedVersionRisk": "Votre version est trop ancienne et peut provoquer l'échec des téléchargements.",
       "restartToUpdate": "Redémarrer maintenant pour installer la mise à jour ?",
       "restartNowAction": "Redémarrer maintenant",
       "updateAvailable": "Mise à jour disponible : {{version}}",
@@ -133,6 +134,8 @@
     "fetch": "Récupérer",
     "fetchingVideoInfo": "Récupération des informations vidéo...",
     "feedback": {
+      "reportNow": "Signaler maintenant",
+      "reportingNow": "Signalement en cours...",
       "title": "Signalez cette erreur :",
       "githubUrlTooLong": "Ce lien GitHub est très long. S'il ne s'ouvre pas, ouvrez la page de l'issue et collez les logs manuellement."
     },
